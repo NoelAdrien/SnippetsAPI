@@ -1,0 +1,10 @@
+C:\Git\SnippetsAPI\bin\Debug\netcoreapp2.0\SnippetsAPI.deps.json
+C:\Git\SnippetsAPI\bin\Debug\netcoreapp2.0\SnippetsAPI.runtimeconfig.json
+C:\Git\SnippetsAPI\bin\Debug\netcoreapp2.0\SnippetsAPI.runtimeconfig.dev.json
+C:\Git\SnippetsAPI\bin\Debug\netcoreapp2.0\SnippetsAPI.dll
+C:\Git\SnippetsAPI\bin\Debug\netcoreapp2.0\SnippetsAPI.pdb
+C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.csproj.CoreCompileInputs.cache
+C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.AssemblyInfoInputs.cache
+C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.AssemblyInfo.cs
+C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.dll
+C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.pdb
