@@ -12,6 +12,6 @@ namespace SnippetsAPI.Domain
         public string Code { get; set; }
         public Langage Langage { get; set; }
         public bool isPublic { get; set; }
-        public User User { get; set; }
+        public User Owner { get; set; }
     }
 }

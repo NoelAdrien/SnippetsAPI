@@ -11,13 +11,13 @@ namespace SnippetsAPI.Controllers
     [Route("api/[controller]")]
     public class SnippetController : Controller
     {
-        private readonly ConnectionStrings _connString;
+        private ConnectionStrings _connString;
         private SnippetService _snippetService;
 
-        public SnippetController(IOptions<ConnectionStrings> connStrings)
+        public SnippetController(IOptions<ConnectionStrings> connString)
         {
-            this._connString = connStrings.Value;
-            this._snippetService = new SnippetService(_connString.SnippetConnection);
+            this._connString = connString.Value;
+            this._snippetService = new SnippetService(this._connString);
         }
 
         // GET api/values
