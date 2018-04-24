@@ -11,9 +11,9 @@ namespace SnippetsAPI.Service
     {
         private ConnectionStrings _conn;
 
-        public SnippetService(ConnectionStrings connString)
+        public SnippetService(IOptions<ConnectionStrings> connString)
         {
-            this._conn = connString;
+            this._conn = connString.Value;
         }
 
         public IEnumerable<Snippet> GetSnippets()

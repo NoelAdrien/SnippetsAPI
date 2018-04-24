@@ -14,10 +14,9 @@ namespace SnippetsAPI.Controllers
         private ConnectionStrings _connString;
         private SnippetService _snippetService;
 
-        public SnippetController(IOptions<ConnectionStrings> connString)
+        public SnippetController(IOptions<ConnectionStrings> conn)
         {
-            this._connString = connString.Value;
-            this._snippetService = new SnippetService(this._connString);
+            this._snippetService = new SnippetService(conn);
         }
 
         // GET api/values

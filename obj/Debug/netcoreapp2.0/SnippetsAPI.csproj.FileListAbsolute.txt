@@ -8,3 +8,4 @@ C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.AssemblyInfoInputs.cache
 C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.AssemblyInfo.cs
 C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.dll
 C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.pdb
+C:\Git\SnippetsAPI\obj\Debug\netcoreapp2.0\SnippetsAPI.csprojResolveAssemblyReference.cache
